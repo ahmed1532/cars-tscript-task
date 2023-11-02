@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background-color: #fff3e0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+  width: 70%;
+  margin-top: 50px;
+  background-color: #cac7c7;
+  padding: 25px 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 1px;
+}
+button {
+  color: white;
+  background-color: #282c34;
+  text-align: center;
+  width: 18%;
+  height: 75px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.model {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.list {
+  background-color: white;
+  width: 70%;
+}
+.model label {
+  margin-left: 20px;
+}
+.model input {
+  width: 2rem;
+  height: 2rem;
+  margin-block: auto;
+}
+.left-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .App-header {
+    width: 95%;
+    padding: 20px 10px;
+  }
+  .list {
+    width: 95%;
+  }
+  .model {
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .model input {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  button {
+    font-size: 60%;
+    width: 20%;
+    font-weight: 700;
+    height: 30px;
+  }
+}
