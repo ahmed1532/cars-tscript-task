@@ -1,3 +1,7 @@
+# Deployment
+
+This project was deployed with netlify and this is [the link to website](https://ahmed-mahmoud-task.netlify.app/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
